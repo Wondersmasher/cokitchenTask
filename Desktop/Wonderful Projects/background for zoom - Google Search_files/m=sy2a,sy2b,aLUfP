@@ -1,0 +1,21 @@
+try{
+var s_mLb=function(a){this.Tk=a};
+
+}catch(e){_DumpException(e)}
+try{
+var s_zm=function(a){s_I.call(this,a.Ka);var b=this;this.window=a.service.window.get();this.wa=this.Tk();this.oa=window.orientation;this.ka=function(){var c=b.Tk(),d=b.ajb()&&90===Math.abs(window.orientation)&&b.oa===-1*window.orientation;b.oa=window.orientation;if(c!==b.wa||d){b.wa=c;d=s_f(b.De);for(var e=d.next();!e.done;e=d.next()){e=e.value;var f=new s_mLb(c);try{e(f)}catch(g){s_ca(g)}}}};this.De=new Set;this.window.addEventListener("resize",this.ka);this.ajb()&&this.window.addEventListener("orientationchange",
+this.ka)};s_w(s_zm,s_I);s_zm.nb=s_I.nb;s_zm.Fa=function(){return{service:{window:s_dj}}};s_zm.prototype.addListener=function(a){this.De.add(a)};s_zm.prototype.removeListener=function(a){this.De.delete(a)};
+s_zm.prototype.Tk=function(){if(s_nLb()){var a=s_Ch(this.window);a=new s_jh(a.width,Math.round(a.width*this.window.innerHeight/this.window.innerWidth))}else a=this.wc()||(s_oa()?s_nLb():this.window.visualViewport)?s_Ch(this.window):new s_jh(this.window.innerWidth,this.window.innerHeight);return a.height<a.width};s_zm.prototype.destroy=function(){this.window.removeEventListener("resize",this.ka);this.window.removeEventListener("orientationchange",this.ka)};
+var s_nLb=function(){return s_oa()&&s_mf.mG()&&!navigator.userAgent.includes("GSA")};s_zm.prototype.wc=function(){return s_oLb};s_zm.prototype.ajb=function(){return"orientation"in window};var s_oLb=!1;s_ej(s_lLa,s_zm);
+
+s_oLb=!0;
+
+}catch(e){_DumpException(e)}
+try{
+s_a("aLUfP");
+
+
+s_b();
+
+}catch(e){_DumpException(e)}
+// Google Inc.
